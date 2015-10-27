@@ -8,17 +8,17 @@ module.exports = {
   },
   'rules': {
     // Prevent missing displayName in a React component definition
-    'react/display-name': 0,
+    'react/display-name': 2,
     // Enforce boolean attributes notation in JSX
-    'react/jsx-boolean-value': 2,
+    'react/jsx-boolean-value': 0,
     // Enforce or disallow spaces inside of curly braces in JSX attributes
-    'react/jsx-curly-spacing': 0,
+    'react/jsx-curly-spacing': [2, 'never'],
     // Prevent duplicate props in JSX
-    'react/jsx-no-duplicate-props': 0,
+    'react/jsx-no-duplicate-props': [2, {'ignoreCase': true}],
+    // Prevent usage of unwrapped JSX strings
+    'react/jsx-no-literals': 1,
     // Disallow undeclared variables in JSX
     'react/jsx-no-undef': 2,
-    // Enforce quote style for JSX attributes
-    'react/jsx-quotes': 0,
     // Enforce propTypes declarations alphabetical sorting
     'react/jsx-sort-prop-types': 0,
     // Enforce props alphabetical sorting
@@ -28,13 +28,13 @@ module.exports = {
     // Prevent variables used in JSX to be incorrectly marked as unused
     'react/jsx-uses-vars': 2,
     // Prevent usage of dangerous JSX properties
-    'react/no-danger': 0,
+    'react/no-danger': 2,
     // Prevent usage of setState in componentDidMount
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
+    'react/no-did-mount-set-state': 2,
     // Prevent usage of setState in componentDidUpdate
     'react/no-did-update-set-state': 2,
     // Prevent multiple component definition per file
-    'react/no-multi-comp': 2,
+    'react/no-multi-comp': 0,
     // Prevent usage of unknown DOM property
     'react/no-unknown-property': 2,
     // Prevent missing props validation in a React component definition
@@ -46,16 +46,7 @@ module.exports = {
     // Prevent extra closing tags for components without children
     'react/self-closing-comp': 2,
     // Enforce component methods order
-    'react/sort-comp': [2, {
-      'order': [
-        'lifecycle',
-        '/^on.+$/',
-        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-        'everything-else',
-        '/^render.+$/',
-        'render'
-      ]
-    }],
+    'react/sort-comp': 2,
     // Prevent missing parentheses around multilines JSX
     'react/wrap-multilines': 2
   }

@@ -9,25 +9,25 @@ module.exports = {
     // require return statements to either always or never specify values
     'consistent-return': 2,
     // specify curly brace conventions for all control statements
-    'curly': [2, 'multi-line'],
+    'curly': [2, 'all'],
     // require default case in switch statements
-    'default-case': 2,
+    'default-case': 0,
     // encourages use of dot notation whenever possible
-    'dot-notation': [2, { 'allowKeywords': true}],
+    'dot-notation': 2,
     // enforces consistent newlines before or after dots
-    'dot-location': 0,
+    'dot-location': [2, 'property'],
     // require the use of === and !==
     'eqeqeq': 2,
     // make sure for-in loops have an if statement
     'guard-for-in': 2,
     // disallow the use of alert, confirm, and prompt
-    'no-alert': 1,
+    'no-alert': 2,
     // disallow use of arguments.caller or arguments.callee
     'no-caller': 2,
     // disallow division operators explicitly at beginning of regular expression
     'no-div-regex': 0,
     // disallow else after a return in an if
-    'no-else-return': 2,
+    'no-else-return': 0,
     // disallow use of labels for anything other then loops and switches
     'no-empty-label': 2,
     // disallow comparisons to null without a type-checking operator
@@ -43,7 +43,7 @@ module.exports = {
     // disallow the use of leading or trailing decimal points in numeric literals
     'no-floating-decimal': 2,
     // disallow the type conversions with shorter notations
-    'no-implicit-coercion': 0,
+    'no-implicit-coercion': 2,
     // disallow use of eval()-like methods
     'no-implied-eval': 2,
     // disallow this keywords outside of classes or class-like objects
@@ -93,15 +93,15 @@ module.exports = {
     // disallow usage of expressions in statement position
     'no-unused-expressions': 2,
     // disallow unnecessary .call() and .apply()
-    'no-useless-call': 0,
+    'no-useless-call': 2,
     // disallow use of void operator
-    'no-void': 0,
+    'no-void': 2,
     // disallow usage of configurable warning terms in comments: e.g. todo
     'no-warning-comments': [0, { 'terms': ['todo', 'fixme', 'xxx'], 'location': 'start' }],
     // disallow use of the with statement
     'no-with': 2,
     // require use of the second argument for parseInt()
-    'radix': 2,
+    'radix': 0,
     // requires to declare all vars on top of their containing scope
     'vars-on-top': 2,
     // require immediate function invocation to be wrapped in parentheses

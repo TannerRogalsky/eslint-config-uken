@@ -1,7 +1,7 @@
 module.exports = {
   'rules': {
     // disallow trailing commas in object literals
-    'comma-dangle': [2, 'always-multiline'],
+    'comma-dangle': 2,
     // disallow assignment in conditional expressions
     'no-cond-assign': [2, 'always'],
     // disallow use of console
@@ -27,13 +27,13 @@ module.exports = {
     // disallow double-negation boolean casts in a boolean context
     'no-extra-boolean-cast': 0,
     // disallow unnecessary parentheses
-    'no-extra-parens': [2, 'functions'],
+    'no-extra-parens': 0,
     // disallow unnecessary semicolons
     'no-extra-semi': 2,
     // disallow overwriting functions written as function declarations
     'no-func-assign': 2,
     // disallow function or variable declarations in nested blocks
-    'no-inner-declarations': 2,
+    'no-inner-declarations': [2, 'both'],
     // disallow invalid regular expression strings in the RegExp constructor
     'no-invalid-regexp': 2,
     // disallow irregular whitespace outside of strings and comments
@@ -55,6 +55,6 @@ module.exports = {
     // ensure that the results of typeof are compared against a valid string
     'valid-typeof': 2,
     // Avoid code that looks like two expressions but is actually one
-    'no-unexpected-multiline': 0
+    'no-unexpected-multiline': 2
   }
 };

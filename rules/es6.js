@@ -8,6 +8,7 @@ module.exports = {
     'classes': true,
     'defaultParams': true,
     'destructuring': true,
+    'experimentalObjectRestSpread': false,
     'forOf': true,
     'generators': false,
     'modules': true,
@@ -22,30 +23,34 @@ module.exports = {
   },
   'rules': {
     // require parens in arrow function arguments
-    'arrow-parens': 0,
+    'arrow-parens': 2,
     // require space before/after arrow function's arrow
-    'arrow-spacing': 0,
+    'arrow-spacing': 2,
     // verify super() callings in constructors
-    'constructor-super': 0,
+    'constructor-super': 2,
     // enforce the spacing around the * in generator functions
-    'generator-star-spacing': 0,
+    'generator-star-spacing': 2,
     // disallow modifying variables of class declarations
-    'no-class-assign': 0,
+    'no-class-assign': 2,
     // disallow modifying variables that are declared using const
-    'no-const-assign': 0,
+    'no-const-assign': 2,
     // disallow to use this/super before super() calling in constructors.
-    'no-this-before-super': 0,
+    'no-this-before-super': 2,
     // require let or const instead of var
     'no-var': 2,
     // require method and property shorthand syntax for object literals
-    'object-shorthand': 0,
+    'object-shorthand': [2, 'methods'],
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': 2,
     // suggest using the spread operator instead of .apply()
-    'prefer-spread': 0,
+    'prefer-spread': 2,
+    // suggest using template literals instead of strings concatenation
+    'prefer-template': 1,
     // suggest using Reflect methods where applicable
-    'prefer-reflect': 0,
+    'prefer-reflect': 2,
     // disallow generator functions that do not have yield
-    'require-yield': 0
+    'require-yield': 2,
+    // Enforce quote style for JSX attributes
+    'jsx-quotes': [2, 'prefer-single'],
   }
 };
