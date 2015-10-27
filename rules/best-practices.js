@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': {
+  rules: {
     // Enforces getter/setter pairs in objects
     'accessor-pairs': 0,
     // treat var statements as if they were block scoped
@@ -97,7 +97,7 @@ module.exports = {
     // disallow use of void operator
     'no-void': 2,
     // disallow usage of configurable warning terms in comments: e.g. todo
-    'no-warning-comments': [0, { 'terms': ['todo', 'fixme', 'xxx'], 'location': 'start' }],
+    'no-warning-comments': [0, {terms: ['todo', 'fixme', 'xxx'], location: 'start'}],
     // disallow use of the with statement
     'no-with': 2,
     // require use of the second argument for parseInt()

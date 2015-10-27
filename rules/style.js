@@ -1,9 +1,9 @@
 module.exports = {
-  'rules': {
+  rules: {
     // enforce spacing inside array brackets
     'array-bracket-spacing': 2,
     // enforce one true brace style
-    'brace-style': [2, '1tbs', {'allowSingleLine': true }],
+    'brace-style': [2, '1tbs', {allowSingleLine: true}],
     // require camel case names
     'camelcase': 2,
     // enforce spacing before and after comma
@@ -23,7 +23,7 @@ module.exports = {
     // this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
     'id-length': 0,
     // this option sets a specific tab width for your code
-    'indent': [2, 2, {'SwitchCase': 1}],
+    'indent': [2, 2, {SwitchCase: 1}],
     // specify whether double or single quotes should be used in JSX attributes
     'jsx-quotes': 2,
     // enforces spacing between keys and values in object literal properties
@@ -51,7 +51,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     'no-mixed-spaces-and-tabs': 2,
     // disallow multiple empty lines
-    'no-multiple-empty-lines': [2, {'max': 1}],
+    'no-multiple-empty-lines': [2, {max: 1}],
     // disallow nested ternary expressions
     'no-nested-ternary': 2,
     // disallow use of the Object constructor
@@ -69,7 +69,7 @@ module.exports = {
     // require or disallow padding inside curly braces
     'object-curly-spacing': 2,
     // allow just one var statement per function
-    'one-var': [2, {'uninitialized': 'always'}],
+    'one-var': [2, {uninitialized: 'always'}],
     // require assignment operator shorthand where possible or prohibit it entirely
     'operator-assignment': [2, 'always'],
     // enforce operators to be placed before or after line breaks
@@ -77,7 +77,7 @@ module.exports = {
     // enforce padding within blocks
     'padded-blocks': [2, 'never'],
     // require quotes around object literal property names
-    'quote-props': [2, 'consistent-as-needed', {'keywords': true}],
+    'quote-props': [2, 'consistent-as-needed', {keywords: true}],
     // specify whether double or single quotes should be used
     'quotes': [2, 'single'],
     // require identifiers to match the provided regular expression

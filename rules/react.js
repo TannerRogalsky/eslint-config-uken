@@ -1,12 +1,12 @@
 module.exports = {
-  'parser': 'babel-eslint',
-  'plugins': [
+  parser: 'babel-eslint',
+  plugins: [
     'react'
   ],
-  'ecmaFeatures': {
-    'jsx': true
+  ecmaFeatures: {
+    jsx: true
   },
-  'rules': {
+  rules: {
     // Prevent missing displayName in a React component definition
     'react/display-name': 2,
     // Enforce boolean attributes notation in JSX
@@ -14,7 +14,7 @@ module.exports = {
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     'react/jsx-curly-spacing': [2, 'never'],
     // Prevent duplicate props in JSX
-    'react/jsx-no-duplicate-props': [2, {'ignoreCase': true}],
+    'react/jsx-no-duplicate-props': [2, {ignoreCase: true}],
     // Prevent usage of unwrapped JSX strings
     'react/jsx-no-literals': 1,
     // Disallow undeclared variables in JSX

@@ -1,27 +1,27 @@
 module.exports = {
-  'env': {
-    'es6': false
+  env: {
+    es6: false
   },
-  'ecmaFeatures': {
-    'arrowFunctions': true,
-    'blockBindings': true,
-    'classes': true,
-    'defaultParams': true,
-    'destructuring': true,
-    'experimentalObjectRestSpread': false,
-    'forOf': true,
-    'generators': false,
-    'modules': true,
-    'objectLiteralComputedProperties': true,
-    'objectLiteralDuplicateProperties': false,
-    'objectLiteralShorthandMethods': true,
-    'objectLiteralShorthandProperties': true,
-    'spread': true,
-    'superInFunctions': true,
-    'templateStrings': true,
-    'jsx': true
+  ecmaFeatures: {
+    arrowFunctions: true,
+    blockBindings: true,
+    classes: true,
+    defaultParams: true,
+    destructuring: true,
+    experimentalObjectRestSpread: false,
+    forOf: true,
+    generators: false,
+    modules: true,
+    objectLiteralComputedProperties: true,
+    objectLiteralDuplicateProperties: false,
+    objectLiteralShorthandMethods: true,
+    objectLiteralShorthandProperties: true,
+    spread: true,
+    superInFunctions: true,
+    templateStrings: true,
+    jsx: true
   },
-  'rules': {
+  rules: {
     // require parens in arrow function arguments
     'arrow-parens': 2,
     // require space before/after arrow function's arrow
@@ -51,6 +51,6 @@ module.exports = {
     // disallow generator functions that do not have yield
     'require-yield': 2,
     // Enforce quote style for JSX attributes
-    'jsx-quotes': [2, 'prefer-single'],
+    'jsx-quotes': [2, 'prefer-single']
   }
 };
