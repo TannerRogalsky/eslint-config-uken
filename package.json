@@ -12,7 +12,12 @@
     "url": "git+https://github.com/TannerRogalsky/eslint-config-uken.git"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "eslintconfig",
+    "config",
+    "uken",
+    "javascript",
+    "styleguide"
   ],
   "author": "Tanner Rogalsky, Elias Adum",
   "license": "MIT",
