@@ -49,8 +49,6 @@ module.exports = {
     // suggest using Reflect methods where applicable
     'prefer-reflect': 2,
     // disallow generator functions that do not have yield
-    'require-yield': 2,
-    // Enforce quote style for JSX attributes
-    'jsx-quotes': [2, 'prefer-single']
+    'require-yield': 2
   }
 };
