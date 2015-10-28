@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-uken",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Uken's ESLint config",
   "main": "index.js",
   "scripts": {
